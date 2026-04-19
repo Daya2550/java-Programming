@@ -3,7 +3,7 @@ package Syncronization;
 public class RaceCondition {
     public static void main(String[] args) throws InterruptedException {
 
-        Counter counter = new Counter();
+        RaceCounter counter = new RaceCounter();
 
         Thread t1 = new Thread(() -> {
             for (int i = 0; i < 1000; i++) {
@@ -27,7 +27,7 @@ public class RaceCondition {
     }
 }
 
-class Counter {
+class RaceCounter {
 
     int counter = 0;
 
