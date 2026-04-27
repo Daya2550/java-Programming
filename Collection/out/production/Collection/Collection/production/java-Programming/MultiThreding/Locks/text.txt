@@ -1,0 +1,6 @@
+ - Lockes are two types in java intrinsic and Extrincit 
+
+ Explicit to use the own control on the loking on the as per the requirement of the program
+
+
+  private Lock l= new ReentrantLock();

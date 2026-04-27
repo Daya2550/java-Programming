@@ -4,7 +4,7 @@ public class UsingThred {
 
     public static void main(String[] args) {
         // 1 . To creating new thread by using anther class , extending the by Thread
-        werk w = new werk();
+        werker w = new werker();
         w.start();
 
         // 2. To creating new Thread by using the anonymous class
@@ -23,7 +23,7 @@ public class UsingThred {
     }
 }
 
-class werk extends Thread {
+class werker extends Thread {
     public void run() {
         System.out.println("Task running at class");
     }

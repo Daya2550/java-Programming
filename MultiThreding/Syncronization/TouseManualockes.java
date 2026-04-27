@@ -66,7 +66,7 @@ public class TouseManualockes {
     }
 }
 
-class Counter {
+class Counterd {
 
     int counter = 0;
 
